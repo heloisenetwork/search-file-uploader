@@ -1,0 +1,22 @@
+ <!DOCTYPE html
+ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html>
+
+ <head>
+ <title>File Uploader</title>
+ <script type="text/javascript" src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/config/uploader_config.js"></script>
+ <script type="text/javascript" src="js/upload.js"></script>
+ </head>
+
+ <body>
+	<h1>File Uploader</h1>
+  <p>Place your File here</p>
+	<form name="heloise-uploader" id="uploadForm" enctype="multipart/form-data"  action="http://localhost:8667/upload" method="post">
+		<input type="file" val="file" name="fileToLoad" id="fileToLoad"></input>
+		<input type="submit" value="hochladen" id="subm">hochladen</input>
+	</form>
+
+ </body>
+ </html>
